@@ -1,0 +1,9 @@
+database_type: postgres
+contract_type: regular
+enable_sakhi_columns: false
+abi:
+  path: contract.abi
+  events:
+  - name: Transfer
+  methods:
+  - name: transfer
